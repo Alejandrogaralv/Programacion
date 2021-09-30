@@ -3,6 +3,6 @@ Inicio
 	Imprimir "introducir num"
 	Leer "num"
 	Para i<-0 Hasta 10 Incremento 1 Hacer
-		Imprimir num, "x", i, "=", (num*i)
+		Imprimir num + "x" + i + "=" + (num*i)
 	Fin Para
 Fin
