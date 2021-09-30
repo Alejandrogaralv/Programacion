@@ -4,7 +4,7 @@ Inicio
 	Entero i
 	Imprimir "Introduzca cont"
 	Leer cont
-	Para i<-0 Hasta cont Incremento 2 hacer
+	Para i<-2 Hasta cont Incremento 2 hacer
 		Imprimir i 
 	Fin Para
 Fin
