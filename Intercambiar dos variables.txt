@@ -1,0 +1,14 @@
+//algoritmo con dos variables num1 y num2 que intercambie los valores
+Inicio
+	Entero num1
+	Entero num2
+	Entero aux
+	Imprimir "El valor de num1 es:"
+	Leer num1
+	Imprimir "El valor de num2 es:"
+	Leer num2
+	aux<-num1
+	num1<-num2
+	num2<-aux
+	Imprimir "El valor de num1 es" + num1 + "y el valo de num2 es" + num2
+Fin
