@@ -1,0 +1,19 @@
+//contar del 1 al 100 while
+Inicio
+	Entero num
+	cont<-1
+	mientras (cont<=100) hacer
+		imprimir cont
+		cont<-cont+1
+	Fin mientras
+Fin
+
+//contar del 1 al 100 repeat
+Inicio
+	entero cont
+	cont<-0
+	repetir
+		cont<-cont+1
+		imprimir cont
+	Hasta Que (cont=100)
+Fin
