@@ -18,17 +18,17 @@ Inicio
     Repetir
             Leer num
             si num>=0 entonces
-            total<-total+num
-            cont<-cont+1
-            si a<num entonces
-                a<-num
-            fin si
-            si b>num>=0 entonces
-                b<-num
-            fin si 
-        si no
-            Imprimir "el valor introducido es negativo"
-        Fin si 
+                total<-total+num
+                cont<-cont+1
+                si a<num entonces
+                    a<-num
+                fin si
+                si b>num>=0 entonces
+                    b<-num
+                fin si 
+            si no
+                Imprimir "el valor introducido es negativo"
+            Fin si 
     Hasta Que (num<0)
     Imprimir "El mayor valor introducido es" + a 
     Imprimir "El menor valor introducido es" + b
