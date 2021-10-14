@@ -1,4 +1,6 @@
 //algoritmo que lea dos valores numéricos por teclado y muestre el mayor de ellos o si son iguales
+
+PROGRAMA: MayorMenor
 Inicio
 	Entero num1, Entero num2
 	Imprimir "introduzca num1"

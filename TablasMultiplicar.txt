@@ -1,0 +1,13 @@
+// algoritmo que muestra la tabla de multiplicar de un número leído por teclado
+
+PROGRAMA: TablaMultiplicar
+
+Inicio
+	Entero i
+	Entero num
+	Imprimir "Introduzca un número"
+	Leer num
+	Para i<-0 hasta 10 incremento 1 hacer
+		Imprimir num + "x" + i + "=" + (num*i)
+	Fin Para
+Fin

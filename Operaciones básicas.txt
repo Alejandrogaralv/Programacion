@@ -1,0 +1,22 @@
+// algoritmo que lee dos números por teclado y realiza las cuatro operaciones básicas con ellos
+// (suma, resta, multiplicación y división) 
+//En el caso de la división, mostrar un mensaje si no puede realizar (división por 0)
+
+PROGRAMA: Operaciones Básicas
+
+Inicio 
+	Entero num1
+	Entero num2
+	Imprimir "Introduzca num1"
+	Leer num1
+	Imprimir "Introduzca num2"
+	Leer num2
+	Imprimir num1 + "+" + num2 + "=" + (num1+num2)
+	Imprimir num1 + "-" + num2 + "=" + (num1-num2)
+	Imprimir num1 + "x" + num2 + "=" + (num1*num2)
+	Si num2 <> 0 entonces
+		Imprimir num1 + "/" + num2 + "=" + (num1/num2)
+	Si no
+		Imprimir "La división no se puede realizar"
+	Fin si
+Fin

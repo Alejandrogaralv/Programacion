@@ -1,0 +1,15 @@
+// algoritmo que muestre las tablas de multiplicar de los 10 primeros números naturales pares
+
+PROGRAMA: TablasMultiplicarPares
+
+Inicio
+	Entero i
+	Entero num
+	num<-0
+	Repetir
+		num<-num+2
+		Para i<-2 hasta 10 incremento 2 hacer
+			Imprimir num + "x" + i + "=" + (num*i)
+		Fin Para
+	Hasta (num=10)
+Fin

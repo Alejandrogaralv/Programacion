@@ -1,0 +1,13 @@
+// algoritmo que imprime los números pares entre 1 y un valor introducido por teclado
+
+PROGRAMA: Pares
+
+Inicio
+	Entero i
+	Entero num
+	Imprimir "introduzca un valor"
+	Leer num
+	para i<-2 hasta num incremento 2 hacer
+		Imprimir i
+	Fin para
+Fin

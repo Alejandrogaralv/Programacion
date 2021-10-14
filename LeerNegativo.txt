@@ -1,0 +1,12 @@
+// algoritmo que lee valores por pantalla hasta que introduzcas un valor negativo
+
+Prorama: LeerNegativo
+
+Inicio
+	Entero num
+	Imprimir "Introduzca un valo"
+	Repetir
+		Leer num
+	Hasta (a<0)
+	Imprimir "el valor introducido es negativo"
+Fin

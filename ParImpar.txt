@@ -1,0 +1,18 @@
+// algoritmo que lea un valor numérico por teclado y muestra si el valor leído es par o impar
+
+PROGRAMA: ParImpar
+
+Inicio
+	Entero num 
+	Imprimir "Inserte un número"
+	Leer num
+	Si num=0 entonces
+		Imrpimir "El cero no es par ni impar"
+	Si no
+		si num mod2=0 entonces
+			Imprimir "el número es par"
+		si no
+			Imprimir "el número es impar"
+		Fin si
+	Fin si
+Fin
