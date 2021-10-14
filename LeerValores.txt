@@ -1,0 +1,37 @@
+// algoritmo que lee valores por pantalla hasta que introducimos un valor negativo
+// En ese momento nos muestra el mayor valor introducido, el menor valor introducido, 
+// el número total de elementos introducidos y la media
+
+PROGRAMA: LeerValores
+
+Inicio  
+    Entero num
+    Entero total
+    Entero cont
+    Entero a 
+    Entero b
+    cont<-0
+    total<-0
+    a<- -1
+    b<-num+1
+    Imprimir "introduzca un valor"
+    Repetir
+        si num>=0 entonces
+            Leer num
+            total<-total+num
+            cont<-cont+1
+            si a<num entonces
+                a<-num
+            fin si
+            si b>num>=0 entonces
+                b<-num
+            fin si 
+        si no
+            Imprimir "el valor introducido es negativo"
+        Fin si 
+    Hasta Que (num<0)
+    Imprimir "El mayor valor introducido es" + a 
+    Imprimir "El menor valor introducido es" + b
+    Imprimir "El número total de elementos introducidos es" + cont
+    Imprimir "La media de los números introducidos es" + (total/cont)
+Fin

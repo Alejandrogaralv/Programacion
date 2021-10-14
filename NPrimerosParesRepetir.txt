@@ -1,0 +1,15 @@
+// algoritmo que imprima los n primeros números pares (con la estructura repetir) 
+
+PRORAMA: NParesRepetir
+
+Inicio
+    Entero cont
+    Entero n 
+    Imprimir "Introduzca un valor"
+    Leer n 
+    cont<-0
+    Repetir 
+        cont<-cont+2
+        Imprimir cont
+    Hasta Que (cont=n*2)
+Fin

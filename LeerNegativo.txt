@@ -4,9 +4,9 @@ Prorama: LeerNegativo
 
 Inicio
 	Entero num
-	Imprimir "Introduzca un valo"
+	Imprimir "Introduzca un valor"
 	Repetir
 		Leer num
-	Hasta (a<0)
+	Hasta (num<0)
 	Imprimir "el valor introducido es negativo"
 Fin

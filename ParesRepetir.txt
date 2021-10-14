@@ -1,0 +1,13 @@
+// algoritmo que imprima los 10 primeros números pares (con la estructura repetir)
+
+PROGRAMA: ParesRepetir
+
+Inicio
+    Entero cont
+    Imprimir cont
+    cont<-0
+    repetir
+        cont<-cont+2
+        Imprimir cont
+    Hasta Que (cont=20)
+Fin
