@@ -16,8 +16,8 @@ Inicio
     b<-num+1
     Imprimir "introduzca un valor"
     Repetir
-        si num>=0 entonces
             Leer num
+            si num>=0 entonces
             total<-total+num
             cont<-cont+1
             si a<num entonces
