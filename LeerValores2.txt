@@ -15,13 +15,13 @@ Inicio
     Imprimir "introduzca un número"
     Repetir
         Leer num
-        Cont<-cont+1
-        Total<-(Total+num)
+        cont<-cont+1
+        total<-(Total+num)
         si num div 7=0 entonces
             a<-a+1
         fin si
     Hasta Que (cont=10)
-    Imprimir "La suma de los valores introducidos es" + Total
+    Imprimir "La suma de los valores introducidos es" + total
     Imprimir "La cantidad de múltiplos de 7 introducidos es" + a
 Fin 
 
