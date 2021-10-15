@@ -12,8 +12,8 @@ Inicio
     cont<-0
     total<-0
     a<-0
-    Imprimir "introduzca un número"
     Repetir
+        Imprimir "introduzca un número"
         Leer num
         cont<-cont+1
         total<-(Total+num)
