@@ -9,8 +9,8 @@ Inicio
     Entero cont
     Entero total
     Entero a
-    Cont<-0
-    Total<-0
+    cont<-0
+    total<-0
     a<-0
     Imprimir "introduzca un número"
     Repetir
