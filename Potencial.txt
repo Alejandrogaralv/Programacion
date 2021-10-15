@@ -6,7 +6,7 @@ PROGRAMA: PotenciaN
 Inicio
     Entero num, p, a, total
     total<-0
-    a<-0 
+    a<-1 
     Imprimir "Introduzca un número"
     Leer num
     Imprimir "Introduzca una potencia"
