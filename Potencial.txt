@@ -1,0 +1,20 @@
+// algoritmo que calcula la n-ésima potencia de un número leido por teclado. 
+// (pedir por teclado la base y el exponente)
+
+PROGRAMA: PotenciaN
+
+Inicio
+    Entero num, p, a, total
+    total<-0
+    a<-0 
+    Imprimir "Introduzca un número"
+    Leer num
+    Imprimir "Introduzca una potencia"
+    Leer p 
+    Repetir
+        total<-total+(num*num)
+        a<a+1
+    Hasta que (a=p)
+Fin
+
+
