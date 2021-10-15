@@ -13,7 +13,7 @@ Inicio
     Leer p 
     Repetir
         total<-total+(num*num)
-        a<a+1
+        a<-a+1
     Hasta que (a=p)
     Imprimir "El resultado es" + total
 Fin
