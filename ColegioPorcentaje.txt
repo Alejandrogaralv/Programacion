@@ -1,0 +1,15 @@
+// algoritmo que de porcentaje de niños y de niñas en el curso actual
+
+PROGRAMA: PorcentajeNiñosNiñas
+
+Inicio
+    entero a, b, total
+    Imprimir "Introduzca número de niños"
+    Leer a 
+    Imprimir "Introduzca número de niñas"
+    Leer b 
+    Imprimir "Introduzca número total de alumnos"
+    Leer total
+    Imprimir "El porcentaje de niños es del" + (a*100/total) + "%"
+    Imprimir "El porcentaje de niñas es del" + (b*100/total) + "%"
+Fin
