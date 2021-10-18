@@ -1,0 +1,32 @@
+// algoritmo que lee números entre 1 y 5 y muestra su valor en letra
+
+PROGRAMA:Numero_Letra
+
+Inicio
+    entero num
+    imprimir "Introduzca un número"
+    leer num
+    repetir
+        si num<1 or num>5 entonces
+            imprimir "Introduzca otro número"
+            leer num
+        fin si
+    Hasta que num>=1 and num<=5
+    
+    si num=1 entonces
+        imprimir "Uno"
+        fin si
+    si num=2 entonces
+        imprimir "Dos"
+    fin si
+    si num=3 entonces
+        imprimir "Tres"
+    fin si
+    si num=4 entonces
+        imprimir "Cuatro"
+    fin si
+    si num=5 entonces
+        imprimir "Cinco"
+    fin si
+Fin
+    
