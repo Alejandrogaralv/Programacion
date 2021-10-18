@@ -7,11 +7,11 @@ Inicio
     imprimir "Introduzca un número"
     leer num
     repetir
-        si num<1 or num>5 entonces
+        si (num<1 or num>5) entonces
             imprimir "Introduzca otro número"
             leer num
         fin si
-    Hasta que num>=1 and num<=5
+    hasta que (num>=1 and num<=5)
     
     si num=1 entonces
         imprimir "Uno"
@@ -29,4 +29,3 @@ Inicio
         imprimir "Cinco"
     fin si
 Fin
-    
