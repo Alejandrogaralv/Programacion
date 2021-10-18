@@ -17,7 +17,8 @@ Inicio
         fin si
         si (acceso=nada) or (acceso=Nada) entonces
             imprimir "Usted no puede acceder a un ciclo formativo de grado superior"
-        si no
+        fin si
+        si (acceso<>bachiller) or (acceso<>Bachiller) or (acceso<>prueba) or (acceso<>Prueba) or (acceso<>nada) or (acceso<>Nada)
             imprimir "La palabra que ha escrito no coincide con las opciones, por favor, introduzca una palabra válida"
         fin si
     Hasta que (acceso=bachiller) or (acceso=Bachiller) or (acceso=prueba) or (acceso=Prueba) or (acceso=nada) or (acceso=Nada)
