@@ -1,0 +1,24 @@
+// algoritmo que nos diga si una persona puede acceder a cursar un ciclo formativo
+// de grado superior o no. Para acceder a un grado superior, si se tiene un título 
+// de bachiller, en caso de no tenerlo, se puede acceder si hemos superado prueba de acceso
+
+PROGRAMA: Grado superior
+
+Inicio
+    cadena acceso
+    repetir
+        imprimir "Si usted cuenta con el título de bachiller escriba la palabra bachiller. Si ha superado una prueba de acceso escriba la palabra prueba. Si no cuenta con ninguna de las dos anteriores escriba la palabra nada"
+        leer acceso
+        si (acceso=bachiller) or (acceso=Bachiller) entonces
+            imprimir "Usted puede acceder a un ciclo formativo de grado superior"
+        fin si
+        si (acceso=prueba) or (acceso=Prueba) entonces
+            imprimir "Usted puede acceder a un ciclo formativo de grado superior"
+        fin si
+        si (acceso=nada) or (acceso=Nada) entonces
+            imprimir "Usted no puede acceder a un ciclo formativo de grado superior"
+        si no
+            imprimir "La palabra que ha escrito no coincide con las opciones, por favor, introduzca una palabra válida"
+        fin si
+    Hasta que (acceso=bachiller) or (acceso=Bachiller) or (acceso=prueba) or (acceso=Prueba) or (acceso=nada) or (acceso=Nada)
+Fin
