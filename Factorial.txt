@@ -1,0 +1,18 @@
+// algoritmo que calcula el factorial de n número
+
+PROGRAMA:factorial
+
+Inicio
+    entero num, fact, total
+    total<-0
+    imprimir "introduzca un número"
+    leer num
+    fact<-num
+    repetir
+        total<-total+(num*fact)
+        fact<-fact-1
+    hasta que (fact=0)
+    imprimir "el factorial de" + num + "es" + total
+Fin
+
+

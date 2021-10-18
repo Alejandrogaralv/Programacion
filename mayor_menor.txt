@@ -1,0 +1,27 @@
+
+Inicio
+    entero mayor, menor, num1, num2, num3
+
+    Imprimir "introduzca números"
+    leer num1, num2, num3
+
+    mayor<-num1
+    menor<-num1
+
+    si (num2<menor)
+        menor=num2
+    fin si
+
+    si (num2>mayor)
+        mayor=num2
+    fin si
+
+    si (num3<menor)
+        menor=num3
+    fin si
+
+    si (num3>mayor)
+        mayor=num3
+    fin si
+    imprimir "el mayor de" + num1 + num2 + num3 + "es" + mayor
+    imprimir "el menor de" + num1 + num2 + num3 + "es" + menor

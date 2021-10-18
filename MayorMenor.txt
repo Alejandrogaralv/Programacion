@@ -3,13 +3,25 @@
 PROGRAMA:MayorMenor
 
 Inicio
-    Entero num1, num2, num3
-    Imprimir "Introduzca un número"
-    Leer num1
-    Imprimir "Introduzca otro número"
-    Leer num2
-    Imprimir "Introduzca otro número"
-    Leer num3
+    Entero num, mayor, menor
+    Imprimir "Introduce tres números"
+    para (entero i hasta 4 incremento 1)
+        leer num
+        si (i = 1)
+            mayor<-num 
+            menor<-num
+
+        si números
+            si (num > mayor)
+                mayor <- num
+            fin si
+            si  (num< menor)
+                menor <- num
+            fin si
+        fin si
+    fin para
+    imprimir...
+fin
     
     
 
