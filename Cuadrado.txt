@@ -1,0 +1,20 @@
+// algoritmo que lee un valor numerico por teclado y muestra su cuadrado mediante una función
+
+
+PROGRAMA: Cuadrado
+
+
+Funcion Cuadrado (entero num) : entero
+    entero Cuadrado
+    cuadrado<-num^2
+    Retornar cuadrado
+FinFuncion
+
+____________________________
+
+Inicio
+    entero num
+    Imprimir "Introduzca un número"
+    Leer num
+    Imprimir "El cuadrado de" + num + "es: " + Cuadrado(num)
+Fin

@@ -1,0 +1,23 @@
+// algoritmo que lee dos valores numéricos y nos devuelve su suma
+// la suma se debe realizar con una función llamada suma
+
+PROGRAMA: Suma
+
+Funcion Suma (entero num1, entero num2): entero
+    entero suma
+    suma<- num1 + num2
+    Retornar suma
+    //(o solo Retornar num1 + num2)
+FinFuncion
+
+____________________________
+
+Inicio
+    Entero num1, num2
+    Imprimir "Introduzca un número"
+    Leer num1
+    Imprimir "Introduzca otro número"
+    Leer num2
+    Imprimir "La suma de" + num1 + "+" + num2 + "es: " + Suma (num1, num2)
+
+Fin

@@ -1,0 +1,25 @@
+
+PROGRAMA: FactorialFuncion
+
+Funcion Factorial (entero num) : entero
+    // codigo
+    entero num, fact, total
+    total<-0
+    fact<-num
+    repetir
+        total<-total+(num*fact)
+        fact<-fact-1
+    hasta que (fact=0)
+    Retorna valor
+FinFuncion
+
+
+Inicio
+
+    // definir num
+    entero nun
+    // leer num
+    leer num
+    Imprimir "el factorial de" + num + "es" + Factorial(num)
+Fin
+

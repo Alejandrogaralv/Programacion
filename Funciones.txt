@@ -1,0 +1,10 @@
+
+PROGRAMA:
+
+Funcion Numbre (parámetros) : retorno
+    // código
+    Retorna valor
+FinFuncion
+Inicio
+    Nombre(valor)
+Fin 
