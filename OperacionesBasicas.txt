@@ -1,0 +1,90 @@
+// algoritmo que realiza una de las cuatro funciones básicas mediante el uso de una función
+// pedir al usuario:
+//  -primer valor
+//  -segundo valor
+//  -operación a realizar (+, -, *, /)
+// sacar por pantalla : "El valor de la operación " + operación + " es " + valor
+
+PROGRAMA: OperacionesBasicas
+
+Funcion suma (entero num1, entero num2) : entero
+    entero suma
+    suma<- num1 + num2
+    Retornar suma
+FinFunción
+
+Funcion resta (entero num1, entero num2) : entero
+    entero resta
+    resta<- num1 - num2
+    Retornar resta
+FinFuncion
+
+Funcion mult (entero num1, entero num2) : entero
+    entero mult
+    mult<- num1 * num2
+    Retornar mult
+FinFuncion
+
+Funcion divi (entero num1, entero num2) : real
+    entero divi
+    divi<- num1 / num2
+    Retornar divi
+FinFuncion
+
+____________________________
+
+Inicio  
+    entero num1, num2
+    cadena op
+    Imprimir "Introduzca el primer número"
+    Leer num1
+    Imprimir "Introduzca el segundo número"
+    Leer num2
+    Imprimir "Introduzca la operacion que desea realizar"
+    Leer op
+
+    si (op=suma) entonces
+        Imprimir "El valor de la operación " + num1 + "+" + " es: " + suma(num1, num2)
+    fin si
+
+    si (op=resta) entonces
+        Imprimir "El valor de la operación " + num1 + "-" + " es: " + resta(num1, num2)
+    fin si
+
+    si (op=multiplicacion) entonces
+        Imprimir "El valor de la operación " + num1 + "*" + " es: " + mult(num1, num2)
+    fin si
+
+    si (op=divi) entonces
+        Imprimir "El valor de la operación " + num1 + "/" + " es: " + divi(num1, num2)
+    fin si 
+Fin
+
+    
+//
+
+Funcion OperacionesBasicas (real num1, real num2, caracter operacion) : real
+    segun operacion
+        caso "+"
+            retornar num+num2
+        caso "-"
+            retornar num1-num2
+        caso "*"
+            retornar num1*num2
+        caso "/"
+            retornar num1/num2
+FinFuncion
+
+____________________________
+
+Inicio
+    real num1, num2
+    caracter simbolo
+    Imprimir "Introduzca el primer número"
+    Leer num1
+    Imprimir "Introduzca el segund número"
+    Leer num2
+    Imprimir "Introduce la operacion"
+    Leer simbolo
+    Imprimir "El resultado de la operación " + simbolo " es: " + OperacionesBasicas(num1, num2, simbolo)
+Fin
