@@ -10,11 +10,11 @@ Funcion Cuadrado (entero num) : entero
     Retornar cuadrado
 FinFuncion
 
-____________________________
+_____________________________
 
 Inicio
     entero num
     Imprimir "Introduzca un número"
     Leer num
-    Imprimir "El cuadrado de" + num + "es: " + Cuadrado(num)
+    Imprimir "El cuadrado de " + num + " es: " + Cuadrado(num)
 Fin
