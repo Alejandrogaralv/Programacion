@@ -1,0 +1,22 @@
+// algoritmo que le dice a un usurio los años que tiene según su año de nacimiento
+// Pedir al usuario por teclado su nombre y el año de nacimiento
+// Realizar una función que calcule su edad
+// escribir por pantalla: "Hola Pelayo, tienes 38 años"
+
+Funcion 
+    Funcion año (entero num) : entero
+    entero año
+    años<-2021-num
+FinFuncion
+
+____________________________
+
+Inicio
+    entero num
+    cadena nom
+    Imprimir "Introduzca su nombre"
+    Leer nom
+    Imprimir "Introduzca su año de nacimiento"
+    Leer num
+    Imprimir "Hola " + nom + ", tienes " + año(num) + " años."
+Fin 
