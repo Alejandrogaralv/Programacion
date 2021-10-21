@@ -67,8 +67,6 @@ Inicio
     Repetir
     si Primo(num)=true entonces
         Imprimir "El número " + num + " es primo."
-    si no
-        Imprimir "El número " + num + " no es primo."
     fin si
     num<-num+1
     Hasta que (num=101)
