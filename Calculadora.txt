@@ -1,4 +1,4 @@
-// programa que muestre al usuario menú hasta que elija la opción salir
+// programa que muestre al usuario el menú hasta que elija la opción salir
 // pedir al usuario por teclado la opción necesaria y ejecutar la correspondiente
 // Una vez pedidos el valor o valores por teclado, sacar por pantalla el resultado 
 // de la operación de la siguiente manera (ejemplo suma): "El resultado de la operación suma es: 18".
@@ -74,19 +74,19 @@ Inicio
         fin si 
 
         si (op=1) entonces
-            Imprimir "El valor de la operación " + num1 + "+" + " es: " + suma(num1, num2)
+            Imprimir "El valor de la operación " + num1 + "+" + num2 + " es: " + suma(num1, num2)
         fin si
 
         si (op=2) entonces
-            Imprimir "El valor de la operación " + num1 + "-" + " es: " + resta(num1, num2)
+            Imprimir "El valor de la operación " + num1 + "-" + num2 + " es: " + resta(num1, num2)
         fin si
 
         si (op=3) entonces
-            Imprimir "El valor de la operación " + num1 + "*" + " es: " + mult(num1, num2)
+            Imprimir "El valor de la operación " + num1 + "*" + num2 + " es: " + mult(num1, num2)
         fin si
 
         si (op=4) entonces
-            Imprimir "El valor de la operación " + num1 + "/" + " es: " + divi(num1, num2)
+            Imprimir "El valor de la operación " + num1 + "/" + num2 + " es: " + divi(num1, num2)
         fin si 
 
         si (op=5) entonces
@@ -94,10 +94,8 @@ Inicio
         fin si
 
         si (op=6) entonces
-            Imprimir "El valor de la operación " + num1 + "^" + " es: " + potencia(num1, num2)
+            Imprimir "El valor de la operación " + num1 + "^" + num2 + " es: " + potencia(num1, num2)
         fin si
-
     Hasta que (op=7)
-
-
+Fin
 

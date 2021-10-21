@@ -44,19 +44,19 @@ Inicio
     Leer op
 
     si (op=suma) entonces
-        Imprimir "El valor de la operación " + num1 + "+" + " es: " + suma(num1, num2)
+        Imprimir "El valor de la operación " + num1 + "+" + num2 + " es: " + suma(num1, num2)
     fin si
 
     si (op=resta) entonces
-        Imprimir "El valor de la operación " + num1 + "-" + " es: " + resta(num1, num2)
+        Imprimir "El valor de la operación " + num1 + "-" + num2 + " es: " + resta(num1, num2)
     fin si
 
     si (op=multiplicacion) entonces
-        Imprimir "El valor de la operación " + num1 + "*" + " es: " + mult(num1, num2)
+        Imprimir "El valor de la operación " + num1 + "*" + num2 + " es: " + mult(num1, num2)
     fin si
 
     si (op=divi) entonces
-        Imprimir "El valor de la operación " + num1 + "/" + " es: " + divi(num1, num2)
+        Imprimir "El valor de la operación " + num1 + "/" + num2 + " es: " + divi(num1, num2)
     fin si 
 Fin
 
