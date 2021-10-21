@@ -1,0 +1,103 @@
+// programa que muestre al usuario menú hasta que elija la opción salir
+// pedir al usuario por teclado la opción necesaria y ejecutar la correspondiente
+// Una vez pedidos el valor o valores por teclado, sacar por pantalla el resultado 
+// de la operación de la siguiente manera (ejemplo suma): "El resultado de la operación suma es: 18".
+// Una vez mostrado el resultado al usuario, volver a mostrar el menú anterior para que introduzca otra 
+// operación (recordar, hasta que pulse la opción 7).
+
+PROGRAMA:Claculadora
+
+
+Funcion suma (entero num1, entero num2) : entero
+    entero suma
+    suma<- num1 + num2
+    Retornar suma
+FinFunción
+
+Funcion resta (entero num1, entero num2) : entero
+    entero resta
+    resta<- num1 - num2
+    Retornar resta
+FinFuncion
+
+Funcion mult (entero num1, entero num2) : entero
+    entero mult
+    mult<- num1 * num2
+    Retornar mult
+FinFuncion
+
+Funcion divi (entero num1, entero num2) : real
+    entero divi
+    divi<- num1 / num2
+    Retornar divi
+FinFuncion
+
+Funcion cuadrado (entero num1) : entero 
+    entero cuadrado
+    cuadrado<-num1^2
+    Retornar cuadrado
+FinFuncion
+
+Funcion potencia (entero num1, entero num2) : entero
+    entero potencia
+    cuadrado<-num1^num2
+    Retornar potencia
+FinFuncion
+
+____________________________
+
+Inicio
+    entero num1, num2, op
+    
+    Repetir
+        Imprimir "Calculadora"
+        Imprimir " 1. Suma"
+        Imprimir " 2. Resta"
+        Imprimir " 3. Multiplicación"
+        Imprimir " 4. División"
+        Imprimir " 5. Cuadrado"
+        Imprimir " 6. Potencia"
+        Imprimir " 7. Salir"
+        Imprimir "Introduzca el número de la operación que desea realizar"
+
+        Leer op
+
+        si (op=1) or (op=2) or (op=3) or (op=4) or (op=6) entonces
+            Imprimir "Introduzca el primer número"
+            Leer num1
+            Imprimir "Introduzca el segundo número"
+            Leer num2
+        fin si
+        si (op=5) entonces
+            Imprimir "Introduzca el número que desea elevar al cuadrado"
+            Leer num1
+        fin si 
+
+        si (op=1) entonces
+        Imprimir "El valor de la operación " + num1 + "+" + " es: " + suma(num1, num2)
+        fin si
+
+        si (op=2) entonces
+            Imprimir "El valor de la operación " + num1 + "-" + " es: " + resta(num1, num2)
+        fin si
+
+        si (op=3) entonces
+            Imprimir "El valor de la operación " + num1 + "*" + " es: " + mult(num1, num2)
+        fin si
+
+        si (op=4) entonces
+            Imprimir "El valor de la operación " + num1 + "/" + " es: " + divi(num1, num2)
+        fin si 
+
+        si (op=5) entonces
+            Imprimir "El valor de la operación " + num1 + "^2" + " es: " + cuadrado(num1)
+        fin si
+
+        si (op=6) entonces
+            Imprimir "El valor de la operación " + num1 + "^" + " es: " + potencia(num1, num2)
+        fin si
+        
+    Hasta que (op=7)
+
+
+
