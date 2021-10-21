@@ -74,7 +74,7 @@ Inicio
         fin si 
 
         si (op=1) entonces
-        Imprimir "El valor de la operación " + num1 + "+" + " es: " + suma(num1, num2)
+            Imprimir "El valor de la operación " + num1 + "+" + " es: " + suma(num1, num2)
         fin si
 
         si (op=2) entonces
@@ -96,7 +96,7 @@ Inicio
         si (op=6) entonces
             Imprimir "El valor de la operación " + num1 + "^" + " es: " + potencia(num1, num2)
         fin si
-        
+
     Hasta que (op=7)
 
 
