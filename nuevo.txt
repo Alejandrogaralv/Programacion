@@ -1,14 +1,15 @@
 // algoritmo que determina si un número es primo mediante una función
 
 Funcion Primo (entero num) : booleano
+    booleaño primo
     si (num>2) and (num/2=0) entonces
         Primo<-false
     si no 
         si (num>3) and (num/3=0) entonces
-            Primo=false
+            Primo<-false
         si no
             si (num>5) and (num/5=0) entonces
-                Primo=false
+                Primo<-false
             si no
                 Primo<-true
             fin si
@@ -24,6 +25,11 @@ Inicio
     Entero num
     Imprimir "Introduzca un nímero"
     Leer num
-    Imprimir "El número " + num + " es primo = " + Primo(num)
+    
+    si Primo(num)=true entonces
+        Imprimir "El número " + num + " es primo."
+    si no
+        Imprimir "El número " + num + " no es primo."
+    fin si
 Fin
     
