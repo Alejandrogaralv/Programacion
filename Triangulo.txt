@@ -1,0 +1,27 @@
+// programa que calcule el área y el perímetro de un triángulo equilátero
+
+Programa:TrianguloEquilatero
+
+Funcion Area (entero base, entero altura): entero
+    entero Area
+    Area<- (base*altura)/2
+    Retornar altura
+FinFuncion
+
+Funcion Per (entero base): entero
+    entero Per
+    Per<- base+base+base
+    Retornar Per
+FinFuncion
+
+____________________________
+
+Inicio
+    entero base, altura
+    Imprimir "Introduzca el valor de la base"
+    Leer base
+    Imprimir "Introduzca el valor de la altura"
+    Leer altura
+    Imprimir "El área del triángulo es: " + Area (base, altura)
+    Imprimir "El perímetro de el triángulo es: " + Per(base)
+Fin
