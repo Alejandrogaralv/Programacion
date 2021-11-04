@@ -78,7 +78,7 @@
                 <mxCell id="19" value="fact=0" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
                     <mxGeometry x="245" y="645" width="150" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="Falso" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=90;" vertex="1" parent="1">
+                <mxCell id="21" value="Falso" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=0;" vertex="1" parent="1">
                     <mxGeometry x="380" y="640" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="verdadero" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
