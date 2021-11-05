@@ -25,7 +25,7 @@ ____________________________
 Inicio
 
     Entero num
-    Imprimir "Introduzca un nímero"
+    Imprimir "Introduzca un número"
     Leer num
     
     si Primo(num)=true entonces
